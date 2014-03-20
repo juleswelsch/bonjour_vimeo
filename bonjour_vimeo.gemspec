@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jules@wgroupe.com"]
   spec.description   = %q{Rails Vimeo API}
   spec.summary       = %q{simply Viemo API implementation for Rails}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/juleswelsch/bonjour_vimeo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
