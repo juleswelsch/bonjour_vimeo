@@ -34,7 +34,7 @@ module BonjourVimeo
         thumbnail_base=response[0]['thumbnail_small'].split('_100')
         response[0]['status']=true
         response[0]['thumbnail_custom']="#{thumbnail_base[0]}_295#{thumbnail_base[1]}"
-        response
+        return response[0]
       when 404
          response = [{'status'=> false}]
       when 500...600
